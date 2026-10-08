@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<base href="./">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+<meta name="theme-color" content="#0a0a0a">
+
+<title>قصر عابدين للمخبوزات والحلويات</title>
+<meta name="description" content="أشهى المخبوزات الشرقية والحلويات الفاخرة من قصر عابدين">
+
+<link rel="icon" type="image/png" href="assets/images/icon-192.png">
+<link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
+<link rel="stylesheet" href="style.css">
+<link rel="manifest" href="manifest.json">
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;900&family=Tajawal:wght@400;500;700;900&family=Lalezar&family=Amiri:wght@400;700&family=Poppins:wght@600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- ============================================================
+     Splash Screen — واجهة المحل
+============================================================ -->
+<div id="splashScreen" class="splash-screen" role="presentation">
+
+  <!-- الواجهة الرخامية -->
+  <div class="splash-facade">
+
+    <!-- العلامة الذهبية أعلى الباب -->
+    <div class="splash-sign">
+      <div class="splash-sign-inner">
+        <span class="splash-sign-icon">👑</span>
+        <h1 class="splash-sign-title">قصر عابدين</h1>
+        <p class="splash-sign-sub">للمخبوزات والحلويات</p>
+      </div>
+    </div>
+
+    <!-- الأبواب الزجاجية -->
+    <div class="splash-doors">
+      <div class="splash-door splash-door-left"></div>
+      <div class="splash-door splash-door-right"></div>
+
+      <!-- انعكاس الإضاءة -->
+      <div class="splash-door-shine"></div>
+    </div>
+
+    <!-- الداخل — بيظهر بعد فتح الأبواب -->
+    <div class="splash-inside">
+      <img src="assets/images/icon-192.png" alt="قصر عابدين" class="splash-inside-logo" onerror="this.style.display='none'">
+      <h2 class="splash-inside-title">قصر عابدين</h2>
+      <p class="splash-inside-sub">للمخبوزات والحلويات</p>
+      <p class="splash-inside-tag">أشهى المخبوزات الشرقية</p>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- ============================================================
+     Header
+============================================================ -->
+<header class="site-header">
+  <div class="header-row">
+
+    <button id="menuBtn" class="icon-btn" aria-label="القائمة">
+      <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+    </button>
+
+    <button id="navBackTop" class="icon-btn nav-ico" type="button" aria-label="رجوع">
+      <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></svg>
+    </button>
+
+    <div class="brand" id="brandHome" role="button" tabindex="0" aria-label="الرئيسية">
+      <span class="brand-crown">👑</span>
+      <span class="brand-en">ABDEEN PALACE</span>
+      <span class="brand-ar">قصر عابدين</span>
+    </div>
+
+    <button id="navHomeTop" class="icon-btn nav-ico" type="button" aria-label="الرئيسية">
+      <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 10v10h13V10"/><path d="M10 20v-5.5h4V20"/></svg>
+    </button>
+
+    <button id="cartBtn" class="icon-btn cart-btn" aria-label="السلة">
+      <svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="20" r="1.4"/><circle cx="18" cy="20" r="1.4"/><path d="M2 3h3l2.6 12.2a1 1 0 0 0 1 .8h9.2a1 1 0 0 0 1-.8L21 7H6"/></svg>
+      <span id="cartCount" class="cart-count">0</span>
+    </button>
+
+  </div>
+</header>
+
+<!-- ============================================================
+     Side Menu
+============================================================ -->
+<div id="sideOverlay" class="overlay"></div>
+<aside id="sideMenu" class="side-menu">
+  <button id="closeMenu" class="icon-btn close-btn">✕</button>
+  <nav class="side-nav">
+    <a href="#" class="side-link" data-nav="home">الرئيسية</a>
+    <a href="#" class="side-link" data-nav="about">عن قصر عابدين</a>
+    <a href="#" class="side-link" data-nav="contact">تواصل معنا</a>
+    <a href="#" class="side-link" data-nav="branches">📍 فروعنا</a>
+  </nav>
+
+  <div id="aboutBox" class="side-box hidden">
+    <p class="side-title">عن قصر عابدين</p>
+    <p id="aboutText"></p>
+    <p class="side-motto">✨ أشهى المخبوزات بأجود المكونات</p>
+  </div>
+
+  <div id="contactBox" class="side-box hidden">
+    <p class="side-title">تواصل معنا</p>
+    <a id="contactFacebook" class="wa-link" href="#" target="_blank">📘 فيسبوك</a>
+    <a id="contactWhatsapp" class="wa-link" href="#" target="_blank">💬 واتساب</a>
+  </div>
+</aside>
+
+<!-- ============================================================
+     Main App
+============================================================ -->
+<main id="app">
+
+  <!-- ===== HOME ===== -->
+  <section id="view-home" class="view">
+
+    <!-- Hero -->
+    <div class="hero">
+      <div class="hero-content">
+        <p class="hero-kicker">منذ الأزل</p>
+        <h2 class="hero-title">أشهى المخبوزات<br>من <span class="hero-accent">قصر عابدين</span></h2>
+        <p class="hero-tagline">مخبوزات طازجة · حلويات فاخرة · مذاق ملكي</p>
+        <button id="heroCta" class="hero-cta" type="button">
+          تسوق الآن
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 6-6 6 6 6"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Featured Slider -->
+    <section class="home-section slider-section">
+      <div class="section-head"><h2 class="section-title">✨ تشكيلاتنا المميزة</h2></div>
+      <div class="slider-track" id="featuredSlider"></div>
+    </section>
+
+    <!-- Categories -->
+    <section class="home-section" id="catsSection">
+      <div class="section-head"><h2 class="section-title">🍞 أقسامنا</h2></div>
+      <div class="cats-grid" id="catsGrid"></div>
+    </section>
+
+    <!-- Offers Slider -->
+    <section class="home-section slider-section" id="offersSection">
+      <div class="section-head"><h2 class="section-title">🔥 عروض وخصومات</h2></div>
+      <div class="slider-track" id="offersSlider"></div>
+    </section>
+
+  </section>
+
+  <!-- ===== CATEGORY ===== -->
+  <section id="view-category" class="view hidden">
+    <button class="back-btn" id="backBtnCategory">
+      <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg>
+      رجوع
+    </button>
+    <h2 id="categoryTitle" class="category-title"></h2>
+    <div id="productsList" class="products-list"></div>
+  </section>
+
+</main>
+
+<!-- ============================================================
+     Cart Drawer
+============================================================ -->
+<div id="cartOverlay" class="overlay"></div>
+<aside id="cartDrawer" class="cart-drawer">
+  <div class="cart-header">
+    <h3>🛒 سلة الطلبات</h3>
+    <button id="addMoreBtn" class="cart-hdr-btn" type="button">+ إضافة المزيد</button>
+  </div>
+
+  <div id="cartItems" class="cart-items"></div>
+
+  <div class="cart-footer">
+    <div class="cart-total">
+      <span>الإجمالي</span>
+      <span id="cartTotal">0</span>
+      <span>ج.م</span>
+    </div>
+
+    <p class="cart-confirm-title">تأكيد الطلب</p>
+
+    <button id="confirmOrderBtn" class="confirm-btn confirm-main" type="button">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>
+      <span>اختر فرعك وأكد الطلب</span>
+    </button>
+  </div>
+</aside>
+
+<!-- ============================================================
+     Branches Modal — اختيار الفرع
+============================================================ -->
+<div id="branchesModal" class="branches-modal">
+  <div class="branches-inner">
+
+    <div class="branches-header">
+      <button id="closeBranchesModal" class="icon-btn close-btn">✕</button>
+      <h2>📍 اختر الفرع الأقرب لك</h2>
+      <p>سيتم إرسال طلبك إلى واتساب الفرع المختار</p>
+    </div>
+
+    <div id="branchesList" class="branches-list"></div>
+
+    <div class="branches-footer">
+      <button id="branchesBackBtn" class="btn-secondary">← رجوع للسلة</button>
+    </div>
+
+  </div>
+</div>
+
+<!-- ============================================================
+     Bottom Nav
+============================================================ -->
+<nav class="bottom-nav" aria-label="تنقل سريع">
+  <button id="navBackBottom" class="bn-btn" type="button">
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 5 7 7-7 7"/></svg>
+    <span>رجوع</span>
+  </button>
+  <button id="navHomeBottom" class="bn-btn" type="button">
+    <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11.5 12 4l9 7.5"/><path d="M5.5 10v10h13V10"/><path d="M10 20v-5.5h4V20"/></svg>
+    <span>الرئيسية</span>
+  </button>
+</nav>
+
+<!-- ============================================================
+     Install Prompt
+============================================================ -->
+<div id="installPrompt" class="install-prompt hidden">
+  <p>ثبّت تطبيق قصر عابدين على شاشتك الرئيسية</p>
+  <div class="install-actions">
+    <button id="installNowBtn" class="cta-btn small">تثبيت الآن</button>
+    <button id="installLaterBtn" class="pill-btn small">لاحقاً</button>
+  </div>
+</div>
+
+<!-- ============================================================
+     Footer
+============================================================ -->
+<footer class="site-footer">
+  <div class="footer-inner">
+
+    <div class="footer-brand">
+      <span class="footer-crown">👑</span>
+      <span class="footer-logo-en">ABDEEN PALACE</span>
+      <span class="footer-logo-ar">قصر عابدين</span>
+      <p class="footer-tag" id="footTagline">أشهى المخبوزات الشرقية والحلويات</p>
+    </div>
+
+    <div class="footer-contact">
+      <p id="footAddress" class="footer-line"></p>
+      <p id="footPhones" class="footer-line"></p>
+    </div>
+
+    <div class="footer-social">
+      <a href="#" id="facebookLink" class="social-icon" target="_blank" rel="noopener" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+      </a>
+      <a href="#" id="instagramLink" class="social-icon" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
+      </a>
+      <a href="#" id="tiktokLink" class="social-icon" target="_blank" rel="noopener" aria-label="TikTok">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>
+      </a>
+      <a href="#" id="whatsappLink" class="social-icon" target="_blank" rel="noopener" aria-label="WhatsApp">
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
+      </a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <p>جميع الحقوق محفوظة لـ <strong>قصر عابدين للمخبوزات</strong></p>
+    <a href="https://mydigital-id.github.io" target="_blank" rel="noopener" class="fingerprint-link" aria-label="MyDigital-ID">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M12 10a2 2 0 0 0-2 2c0 1.02-.1 2.51-.26 4"/>
+        <path d="M14 13.12c0 2.38 0 6.38-1 8.88"/>
+        <path d="M17.29 21.02c.12-.6.43-2.3.5-3.02"/>
+        <path d="M2 12a10 10 0 0 1 18-6"/>
+        <path d="M2 16h.01"/>
+        <path d="M21.8 16c.2-2 .131-5.354 0-6"/>
+        <path d="M5 19.5C5.5 18 6 15 6 12a6 6 0 0 1 .34-2"/>
+        <path d="M8.65 22c.21-.66.45-1.32.57-2"/>
+        <path d="M9 6.8a6 6 0 0 1 9 5.2v2"/>
+      </svg>
+    </a>
+  </div>
+</footer>
+
+<!-- ============================================================
+     Scripts
+============================================================ -->
+<script src="site-data-loader.js"></script>
+<script src="script.js"></script>
+
+<script>
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('./service-worker.js')
+        .then((registration) => {
+          console.log('✅ Service Worker registered:', registration.scope);
+        })
+        .catch((err) => {
+          console.warn('⚠️ Service Worker registration failed:', err);
+        });
+    });
+  }
+</script>
+
+</body>
+</html>

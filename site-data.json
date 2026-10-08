@@ -1,0 +1,2691 @@
+{
+  "config": {
+    "brand_ar": "قصر عابدين للمخبوزات والحلويات",
+    "brand_en": "Abdeen Palace Bakery & Sweets",
+    "tagline_ar": "أشهى المخبوزات الشرقية والحلويات الفاخرة",
+    "tagline_en": "Finest Eastern Bakery & Luxury Sweets",
+    "about_ar": "قصر عابدين للمخبوزات والحلويات — نقدم لكم أشهى المخبوزات الطازجة والحلويات الشرقية والفاخرة بأجود المكونات وأعلى معايير الجودة.",
+    "about_en": "Abdeen Palace Bakery & Sweets — Offering the finest fresh baked goods and premium eastern sweets.",
+    "whatsappNumber": "",
+    "phones": [],
+    "address_ar": "الإسكندرية - مصر",
+    "address_en": "Alexandria, Egypt",
+    "mapUrl": ""
+  },
+  "social": {
+    "facebook": "",
+    "messenger": "",
+    "whatsapp": "",
+    "instagram": "",
+    "tiktok": "",
+    "telegram": ""
+  },
+  "branches": [
+    {
+      "id": "br-1",
+      "name": "فرع محمد نجيب",
+      "address": "",
+      "whatsapp": "",
+      "visible": true
+    },
+    {
+      "id": "br-2",
+      "name": "فرع لوران",
+      "address": "",
+      "whatsapp": "",
+      "visible": true
+    },
+    {
+      "id": "br-3",
+      "name": "فرع سموحة",
+      "address": "",
+      "whatsapp": "",
+      "visible": true
+    },
+    {
+      "id": "br-4",
+      "name": "فرع محطة الرمل",
+      "address": "",
+      "whatsapp": "",
+      "visible": true
+    },
+    {
+      "id": "br-5",
+      "name": "فرع المندرة",
+      "address": "",
+      "whatsapp": "",
+      "visible": true
+    },
+    {
+      "id": "br-6",
+      "name": "فرع المنتزه",
+      "address": "",
+      "whatsapp": "",
+      "visible": true
+    },
+    {
+      "id": "br-7",
+      "name": "فرع ميامي",
+      "address": "",
+      "whatsapp": "",
+      "visible": true
+    },
+    {
+      "id": "br-8",
+      "name": "فرع بحري",
+      "address": "",
+      "whatsapp": "",
+      "visible": true
+    },
+    {
+      "id": "br-9",
+      "name": "فرع المنشية",
+      "address": "",
+      "whatsapp": "",
+      "visible": true
+    },
+    {
+      "id": "br-10",
+      "name": "فرع محطة مصر",
+      "address": "",
+      "whatsapp": "",
+      "visible": true
+    },
+    {
+      "id": "br-11",
+      "name": "فرع محرم بك",
+      "address": "",
+      "whatsapp": "",
+      "visible": true
+    },
+    {
+      "id": "br-12",
+      "name": "فرع العجمي",
+      "address": "",
+      "whatsapp": "",
+      "visible": true
+    },
+    {
+      "id": "br-13",
+      "name": "فرع العصافرة",
+      "address": "",
+      "whatsapp": "",
+      "visible": true
+    },
+    {
+      "id": "br-14",
+      "name": "فرع سيدي بشر",
+      "address": "",
+      "whatsapp": "",
+      "visible": true
+    },
+    {
+      "id": "br-15",
+      "name": "فرع كليوباترا",
+      "address": "",
+      "whatsapp": "",
+      "visible": true
+    }
+  ],
+  "featured": [
+    "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80",
+    "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=800&q=80",
+    "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=800&q=80",
+    "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80",
+    "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80"
+  ],
+  "offers": [],
+  "categories": [
+    {
+      "id": "fino",
+      "icon": "🍞",
+      "name_ar": "الخبز الفينو",
+      "name_en": "Fino Bread",
+      "homeImg": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80",
+      "visible": true,
+      "sellType": "count",
+      "quantityUnit": "قطعة",
+      "quantityPresets": [
+        10,
+        20,
+        30
+      ],
+      "products": [
+        {
+          "id": "fino-1",
+          "name_ar": "خبز فينو وسط",
+          "name_en": "Fino Medium",
+          "desc_ar": "خبز فينو طازج يومياً - حجم وسط",
+          "images": [
+            "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80",
+            "https://images.unsplash.com/photo-1585478259715-1f7d7b3a4a7e?w=800&q=80"
+          ],
+          "price": 2,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "fino-2",
+          "name_ar": "خبز فينو كبير",
+          "name_en": "Fino Large",
+          "desc_ar": "خبز فينو طازج يومياً - حجم كبير",
+          "images": [
+            "https://images.unsplash.com/photo-1585478259715-1f7d7b3a4a7e?w=800&q=80"
+          ],
+          "price": 3,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "pate-large",
+      "icon": "🥐",
+      "name_ar": "الباتيه الكبير",
+      "name_en": "Large Pate",
+      "homeImg": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=600&q=80",
+      "visible": true,
+      "sellType": "count",
+      "quantityUnit": "قطعة",
+      "quantityPresets": [
+        10,
+        20,
+        30
+      ],
+      "products": [
+        {
+          "id": "pate-l-1",
+          "name_ar": "باتيه سادة",
+          "name_en": "Plain Pate",
+          "desc_ar": "باتيه سادة بعجينة مورقة طازجة",
+          "images": [
+            "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=800&q=80"
+          ],
+          "price": 10,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "pate-l-2",
+          "name_ar": "باتيه بالجبنة البيضاء",
+          "name_en": "White Cheese Pate",
+          "desc_ar": "باتيه محشو بالجبنة البيضاء الطازجة",
+          "images": [
+            "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80"
+          ],
+          "price": 15,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "pate-l-3",
+          "name_ar": "باتيه بالجبنة التركي",
+          "name_en": "Turkish Cheese Pate",
+          "desc_ar": "باتيه محشو بالجبنة التركي الفاخرة",
+          "images": [
+            "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80"
+          ],
+          "price": 18,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "pate-l-4",
+          "name_ar": "باتيه بالجبنة والزيتون",
+          "name_en": "Cheese & Olives Pate",
+          "desc_ar": "باتيه محشو بالجبنة والزيتون",
+          "images": [
+            "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80"
+          ],
+          "price": 18,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "pate-l-5",
+          "name_ar": "باتيه بالشوكولاتة",
+          "name_en": "Chocolate Pate",
+          "desc_ar": "باتيه محشو بالشوكولاتة الفاخرة",
+          "images": [
+            "https://images.unsplash.com/photo-1548907040-4baa42d10919?w=800&q=80"
+          ],
+          "price": 15,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "pate-l-6",
+          "name_ar": "باتيه بالعجوة",
+          "name_en": "Date Pate",
+          "desc_ar": "باتيه محشو بالعجوة الطبيعية",
+          "images": [
+            "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=800&q=80"
+          ],
+          "price": 12,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "croissant-large",
+      "icon": "🥐",
+      "name_ar": "الكرواسون الكبير",
+      "name_en": "Large Croissant",
+      "homeImg": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600&q=80",
+      "visible": true,
+      "sellType": "count",
+      "quantityUnit": "قطعة",
+      "quantityPresets": [
+        5,
+        10,
+        15
+      ],
+      "products": [
+        {
+          "id": "crois-l-1",
+          "name_ar": "كرواسون بالزبدة",
+          "name_en": "Butter Croissant",
+          "desc_ar": "كرواسون فرنسي بالزبدة الطازجة",
+          "images": [
+            "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=800&q=80"
+          ],
+          "price": 15,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "crois-l-2",
+          "name_ar": "كرواسون بالشوكولاتة",
+          "name_en": "Chocolate Croissant",
+          "desc_ar": "كرواسون محشو بالشوكولاتة الفاخرة",
+          "images": [
+            "https://images.unsplash.com/photo-1530610476181-d83430b64dcd?w=800&q=80"
+          ],
+          "price": 18,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "sandwiches",
+      "icon": "🥪",
+      "name_ar": "السندوتشات المخبوزة",
+      "name_en": "Baked Sandwiches",
+      "homeImg": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=600&q=80",
+      "visible": true,
+      "sellType": "count",
+      "quantityUnit": "قطعة",
+      "quantityPresets": [
+        5,
+        10,
+        15
+      ],
+      "products": [
+        {
+          "id": "sand-1",
+          "name_ar": "سندوتش فراخ",
+          "name_en": "Chicken Sandwich",
+          "desc_ar": "سندوتش مخبوز بالفراخ والجبنة",
+          "images": [
+            "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=800&q=80"
+          ],
+          "price": 25,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "sand-2",
+          "name_ar": "سندوتش لانشون",
+          "name_en": "Luncheon Sandwich",
+          "desc_ar": "سندوتش مخبوز باللانشون والجبنة",
+          "images": [
+            "https://images.unsplash.com/photo-1539252554453-80ab65ce3586?w=800&q=80"
+          ],
+          "price": 20,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "sand-3",
+          "name_ar": "سندوتش جبنة",
+          "name_en": "Cheese Sandwich",
+          "desc_ar": "سندوتش مخبوز بالجبنة الرومي",
+          "images": [
+            "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?w=800&q=80"
+          ],
+          "price": 18,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "fateer-fresh",
+      "icon": "🥧",
+      "name_ar": "الفطائر الطازجة",
+      "name_en": "Fresh Pies",
+      "homeImg": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&q=80",
+      "visible": true,
+      "sellType": "count",
+      "quantityUnit": "قطعة",
+      "quantityPresets": [
+        5,
+        10,
+        15
+      ],
+      "products": [
+        {
+          "id": "fateer-1",
+          "name_ar": "فطيرة بالعسل والسكر",
+          "name_en": "Honey & Sugar Pie",
+          "desc_ar": "فطيرة طازجة بالعسل والسكر",
+          "images": [
+            "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+          ],
+          "variants": [
+            {
+              "label": "وسط",
+              "price": 15
+            },
+            {
+              "label": "كبير",
+              "price": 25
+            }
+          ],
+          "desc_en": "",
+          "price": 0,
+          "priceUnit": "قطعة"
+        },
+        {
+          "id": "fateer-2",
+          "name_ar": "فطيرة سادة",
+          "name_en": "Plain Pie",
+          "desc_ar": "فطيرة طازجة سادة",
+          "images": [
+            "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+          ],
+          "variants": [
+            {
+              "label": "وسط",
+              "price": 12
+            },
+            {
+              "label": "كبير",
+              "price": 20
+            }
+          ],
+          "desc_en": "",
+          "price": 0,
+          "priceUnit": "قطعة"
+        }
+      ]
+    },
+    {
+      "id": "pastries-fresh",
+      "icon": "🥨",
+      "name_ar": "المعجنات الطازجة",
+      "name_en": "Fresh Pastries",
+      "homeImg": "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=600&q=80",
+      "visible": true,
+      "sellType": "count",
+      "quantityUnit": "قطعة",
+      "quantityPresets": [
+        10,
+        20,
+        30
+      ],
+      "products": [
+        {
+          "id": "pastry-1",
+          "name_ar": "معجنات مشكلة",
+          "name_en": "Mixed Pastries",
+          "desc_ar": "تشكيلة معجنات طازجة",
+          "images": [
+            "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=800&q=80"
+          ],
+          "price": 12,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "pastry-2",
+          "name_ar": "معجنات بالجبنة",
+          "name_en": "Cheese Pastries",
+          "desc_ar": "معجنات بالجبنة الفاخرة",
+          "images": [
+            "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80"
+          ],
+          "price": 15,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "pate-small",
+      "icon": "🥟",
+      "name_ar": "الباتيه الصغير",
+      "name_en": "Small Pate",
+      "homeImg": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80",
+      "visible": true,
+      "sellType": "weight",
+      "quantityUnit": "كيلو",
+      "quantityPresets": [
+        0.25,
+        0.5,
+        1
+      ],
+      "products": [
+        {
+          "id": "pate-s-1",
+          "name_ar": "باتيه صغير سادة",
+          "name_en": "Small Plain Pate",
+          "desc_ar": "باتيه صغير سادة - يباع بالكيلو",
+          "images": [
+            "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80"
+          ],
+          "price": 120,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "pate-s-2",
+          "name_ar": "باتيه صغير بالشوكولاتة",
+          "name_en": "Small Chocolate Pate",
+          "desc_ar": "باتيه صغير محشو بالشوكولاتة",
+          "images": [
+            "https://images.unsplash.com/photo-1548907040-4baa42d10919?w=800&q=80"
+          ],
+          "price": 140,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "croissant-small",
+      "icon": "🥐",
+      "name_ar": "الكروسون الصغير",
+      "name_en": "Small Croissant",
+      "homeImg": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=600&q=80",
+      "visible": true,
+      "sellType": "weight",
+      "quantityUnit": "كيلو",
+      "quantityPresets": [
+        0.25,
+        0.5,
+        1
+      ],
+      "products": [
+        {
+          "id": "crois-s-1",
+          "name_ar": "كرواسون صغير سادة",
+          "name_en": "Small Plain Croissant",
+          "desc_ar": "كرواسون صغير سادة - يباع بالكيلو",
+          "images": [
+            "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=800&q=80"
+          ],
+          "price": 150,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "crois-s-2",
+          "name_ar": "كرواسون صغير بالشوكولاتة",
+          "name_en": "Small Chocolate Croissant",
+          "desc_ar": "كرواسون صغير بالشوكولاتة",
+          "images": [
+            "https://images.unsplash.com/photo-1530610476181-d83430b64dcd?w=800&q=80"
+          ],
+          "price": 170,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "pate-pizza",
+      "icon": "🍕",
+      "name_ar": "باتيه حشو بيتزا",
+      "name_en": "Pizza Stuffed Pate",
+      "homeImg": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&q=80",
+      "visible": true,
+      "sellType": "weight",
+      "quantityUnit": "كيلو",
+      "quantityPresets": [
+        0.25,
+        0.5,
+        1
+      ],
+      "products": [
+        {
+          "id": "pate-piz-1",
+          "name_ar": "باتيه حشو بيتزا",
+          "name_en": "Pizza Pate",
+          "desc_ar": "باتيه محشو بحشوة البيتزا الشهية - جبنة موزاريلا وصلصة طماطم",
+          "images": [
+            "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80",
+            "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "pate-piz-2",
+          "name_ar": "باتيه حشو بيتزا بالفراخ",
+          "name_en": "Chicken Pizza Pate",
+          "desc_ar": "باتيه محشو بحشوة البيتزا بالفراخ",
+          "images": [
+            "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=800&q=80"
+          ],
+          "price": 180,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "cookies",
+      "icon": "🍪",
+      "name_ar": "الكوكيز",
+      "name_en": "Cookies",
+      "homeImg": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600&q=80",
+      "visible": true,
+      "sellType": "weight",
+      "quantityUnit": "كيلو",
+      "quantityPresets": [
+        0.25,
+        0.5,
+        1
+      ],
+      "products": [
+        {
+          "id": "cookie-1",
+          "name_ar": "كوكيز سادة",
+          "name_en": "Plain Cookies",
+          "desc_ar": "كوكيز سادة طازج - مقرمش من بره وطري من جوه",
+          "images": [
+            "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=800&q=80"
+          ],
+          "price": 180,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "cookie-2",
+          "name_ar": "كوكيز بالشوكولاتة",
+          "name_en": "Chocolate Cookies",
+          "desc_ar": "كوكيز محشو بقطع الشوكولاتة الفاخرة - حشو بيبظ",
+          "images": [
+            "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800&q=80",
+            "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=800&q=80"
+          ],
+          "price": 220,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "cookie-3",
+          "name_ar": "كوكيز الكاكاو",
+          "name_en": "Cocoa Cookies",
+          "desc_ar": "كوكيز بالكاكاو الفاخر",
+          "images": [
+            "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800&q=80"
+          ],
+          "price": 200,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "baklava",
+      "icon": "🥮",
+      "name_ar": "البقلاوة",
+      "name_en": "Baklava",
+      "homeImg": "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=600&q=80",
+      "visible": true,
+      "sellType": "weight",
+      "quantityUnit": "كيلو",
+      "quantityPresets": [
+        0.25,
+        0.5,
+        1
+      ],
+      "products": [
+        {
+          "id": "baklava-1",
+          "name_ar": "بقلاوة سادة",
+          "name_en": "Plain Baklava",
+          "desc_ar": "بقلاوة سادة بالعسل الطبيعي - طبقات رقيقة مقرمشة",
+          "images": [
+            "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80"
+          ],
+          "price": 280,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "baklava-2",
+          "name_ar": "بقلاوة محشية مكسرات",
+          "name_en": "Baklava with Nuts",
+          "desc_ar": "بقلاوة محشية بمكسرات فاخرة - بندق، فستق، لوز",
+          "images": [
+            "https://images.unsplash.com/photo-1601001435957-74f0958a93c8?w=800&q=80"
+          ],
+          "price": 350,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "baklava-3",
+          "name_ar": "بقلاوة بالفستق الحلبي",
+          "name_en": "Pistachio Baklava",
+          "desc_ar": "بقلاوة فاخرة بالفستق الحلبي الأصلي",
+          "images": [
+            "https://images.unsplash.com/photo-1601001435957-74f0958a93c8?w=800&q=80"
+          ],
+          "price": 450,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "slezona",
+      "icon": "🥨",
+      "name_ar": "السلزيونات",
+      "name_en": "Slezona",
+      "homeImg": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&q=80",
+      "visible": true,
+      "sellType": "weight",
+      "quantityUnit": "كيلو",
+      "quantityPresets": [
+        0.25,
+        0.5,
+        1
+      ],
+      "products": [
+        {
+          "id": "slez-1",
+          "name_ar": "سلزيونة سادة",
+          "name_en": "Plain Slezona",
+          "desc_ar": "سلزيونة سادة طازجة",
+          "images": [
+            "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+          ],
+          "price": 140,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "slez-2",
+          "name_ar": "سلزيونة بالكمون",
+          "name_en": "Cumin Slezona",
+          "desc_ar": "سلزيونة بالكمون - طعم شرقي أصيل",
+          "images": [
+            "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+          ],
+          "price": 150,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "slez-3",
+          "name_ar": "سلزيونة بحبة البركة",
+          "name_en": "Nigella Slezona",
+          "desc_ar": "سلزيونة بحبة البركة",
+          "images": [
+            "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+          ],
+          "price": 150,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "slez-4",
+          "name_ar": "سلزيونة بالجبنة التركي",
+          "name_en": "Turkish Cheese Slezona",
+          "desc_ar": "سلزيونة محشية بالجبنة التركي الفاخرة",
+          "images": [
+            "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80"
+          ],
+          "price": 180,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "sil-1",
+          "name_ar": "بوريك جبنة وزيتون",
+          "name_en": "Cheese & Olives Borek",
+          "desc_ar": "بوريك محشو بالجبنة والزيتون",
+          "images": [
+            "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "sil-2",
+          "name_ar": "مشكل جبن",
+          "name_en": "Mixed Cheese",
+          "desc_ar": "تشكيلة جبن مشكل",
+          "images": [
+            "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "sil-3",
+          "name_ar": "مناقيش سوري بسطرومة",
+          "name_en": "Souri Pastrami Manakish",
+          "desc_ar": "مناقيش سوري بالبسطرمة",
+          "images": [
+            "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "sil-4",
+          "name_ar": "ميني باتيه جبنة بيضة",
+          "name_en": "Mini White Cheese Pate",
+          "desc_ar": "ميني باتيه بالجبنة البيضة",
+          "images": [
+            "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "sil-5",
+          "name_ar": "ميني باتيه جبنة رومي",
+          "name_en": "Mini Roumi Cheese Pate",
+          "desc_ar": "ميني باتيه بالجبنة الرومي",
+          "images": [
+            "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "sil-6",
+          "name_ar": "ميني باتيه بسطرومة",
+          "name_en": "Mini Pastrami Pate",
+          "desc_ar": "ميني باتيه بالبسطرمة",
+          "images": [
+            "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "sil-7",
+          "name_ar": "ميني باتيه سوسيس",
+          "name_en": "Mini Sausage Pate",
+          "desc_ar": "ميني باتيه بالسوسيس",
+          "images": [
+            "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "sil-8",
+          "name_ar": "مناقيش سوري جبنة كيري",
+          "name_en": "Souri Kiri Cheese Manakish",
+          "desc_ar": "مناقيش سوري بجبنة كيري",
+          "images": [
+            "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "sil-9",
+          "name_ar": "سيلزون جبنة رومي لانشون",
+          "name_en": "Roumi Cheese & Luncheon Silezon",
+          "desc_ar": "سيلزون بالجبنة الرومي واللانشون",
+          "images": [
+            "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80"
+          ],
+          "price": 180,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "sil-10",
+          "name_ar": "سيلزون برجر",
+          "name_en": "Burger Silezon",
+          "desc_ar": "سيلزون بالبرجر",
+          "images": [
+            "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80"
+          ],
+          "price": 180,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "sil-11",
+          "name_ar": "سيلزون سترس",
+          "name_en": "Stress Silezon",
+          "desc_ar": "سيلزون بالستراس",
+          "images": [
+            "https://images.unsplash.com/photo-1551782450-a2132b4ba21d?w=800&q=80"
+          ],
+          "price": 180,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "sil-12",
+          "name_ar": "سيلزون سلطة تونة",
+          "name_en": "Tuna Salad Silezon",
+          "desc_ar": "سيلزون بسلطة التونة",
+          "images": [
+            "https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=800&q=80"
+          ],
+          "price": 180,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "petit-four",
+      "icon": "🍫",
+      "name_ar": "البيتي فور",
+      "name_en": "Petit Four",
+      "homeImg": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&q=80",
+      "visible": true,
+      "sellType": "weight",
+      "quantityUnit": "كيلو",
+      "quantityPresets": [
+        0.25,
+        0.5,
+        1
+      ],
+      "products": [
+        {
+          "id": "pf-1",
+          "name_ar": "بيتي فور سادة",
+          "name_en": "Plain Petit Four",
+          "desc_ar": "بيتي فور سادة فاخر - يذوب في الفم",
+          "images": [
+            "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800&q=80"
+          ],
+          "price": 250,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "pf-2",
+          "name_ar": "بيتي فور بالشوكولاتة",
+          "name_en": "Chocolate Petit Four",
+          "desc_ar": "بيتي فور بالشوكولاتة الفاخرة",
+          "images": [
+            "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?w=800&q=80"
+          ],
+          "price": 300,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "pf-3",
+          "name_ar": "بيتي فور مشكل",
+          "name_en": "Mixed Petit Four",
+          "desc_ar": "تشكيلة بيتي فور فاخرة",
+          "images": [
+            "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800&q=80"
+          ],
+          "price": 280,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "harissa",
+      "icon": "🍰",
+      "name_ar": "الهريسة",
+      "name_en": "Harissa",
+      "homeImg": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&q=80",
+      "visible": true,
+      "sellType": "weight",
+      "quantityUnit": "كيلو",
+      "quantityPresets": [
+        0.25,
+        0.5,
+        1
+      ],
+      "products": [
+        {
+          "id": "harissa-1",
+          "name_ar": "هريسة سادة",
+          "name_en": "Plain Harissa",
+          "desc_ar": "هريسة سادة بالسميد وجوز الهند",
+          "images": [
+            "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80"
+          ],
+          "price": 180,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "harissa-2",
+          "name_ar": "هريسة محشية",
+          "name_en": "Stuffed Harissa",
+          "desc_ar": "هريسة محشية بالمكسرات الفاخرة",
+          "images": [
+            "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80"
+          ],
+          "price": 250,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "gateau",
+      "icon": "🎂",
+      "name_ar": "الجاتوه",
+      "name_en": "Gateau",
+      "homeImg": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&q=80",
+      "visible": true,
+      "sellType": "count",
+      "quantityUnit": "قطعة",
+      "quantityPresets": [
+        1,
+        5,
+        10
+      ],
+      "products": [
+        {
+          "id": "gateau-1",
+          "name_ar": "جاتوه شوكولاتة",
+          "name_en": "Chocolate Gateau",
+          "desc_ar": "جاتوه شوكولاتة فاخر - كيك طري بطبقات كريمة",
+          "images": [
+            "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80",
+            "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&q=80"
+          ],
+          "price": 35,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "gateau-2",
+          "name_ar": "جاتوه فراولة",
+          "name_en": "Strawberry Gateau",
+          "desc_ar": "جاتوه فراولة طازج",
+          "images": [
+            "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=80"
+          ],
+          "price": 35,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "gateau-3",
+          "name_ar": "جاتوه فانيليا",
+          "name_en": "Vanilla Gateau",
+          "desc_ar": "جاتوه فانيليا بكريمة فاخرة",
+          "images": [
+            "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&q=80"
+          ],
+          "price": 30,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "tarts",
+      "icon": "🥧",
+      "name_ar": "التورتات",
+      "name_en": "Tarts & Cakes",
+      "homeImg": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600&q=80",
+      "visible": true,
+      "sellType": "count",
+      "quantityUnit": "قطعة",
+      "quantityPresets": [
+        1,
+        2,
+        5
+      ],
+      "products": [
+        {
+          "id": "tart-1",
+          "name_ar": "تورتة شوكولاتة",
+          "name_en": "Chocolate Cake",
+          "desc_ar": "تورتة شوكولاتة كاملة - مناسبة للمناسبات",
+          "images": [
+            "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80"
+          ],
+          "price": 350,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "tart-2",
+          "name_ar": "تورتة فواكه",
+          "name_en": "Fruit Cake",
+          "desc_ar": "تورتة فواكه طازجة",
+          "images": [
+            "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=80"
+          ],
+          "price": 400,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "tart-3",
+          "name_ar": "تورتة عيد ميلاد",
+          "name_en": "Birthday Cake",
+          "desc_ar": "تورتة عيد ميلاد مخصصة حسب الطلب",
+          "images": [
+            "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80"
+          ],
+          "price": 450,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "cake",
+      "icon": "🍰",
+      "name_ar": "الكيك",
+      "name_en": "Cake",
+      "homeImg": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=600&q=80",
+      "visible": true,
+      "sellType": "count",
+      "quantityUnit": "قطعة",
+      "quantityPresets": [
+        1,
+        5,
+        10
+      ],
+      "products": [
+        {
+          "id": "cake-1",
+          "name_ar": "كيك شوكولاتة",
+          "name_en": "Chocolate Cake",
+          "desc_ar": "كيك شوكولاتة فاخر",
+          "images": [
+            "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&q=80"
+          ],
+          "price": 25,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "cake-2",
+          "name_ar": "كيك فانيليا",
+          "name_en": "Vanilla Cake",
+          "desc_ar": "كيك فانيليا طري",
+          "images": [
+            "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80"
+          ],
+          "price": 22,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "cake-3",
+          "name_ar": "كيك أحمر مخملي",
+          "name_en": "Red Velvet Cake",
+          "desc_ar": "كيك أحمر مخملي فاخر",
+          "images": [
+            "https://images.unsplash.com/photo-1586985289906-406988974504?w=800&q=80"
+          ],
+          "price": 30,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "donuts",
+      "icon": "🍩",
+      "name_ar": "الدوناتس",
+      "name_en": "Donuts",
+      "homeImg": "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600&q=80",
+      "visible": true,
+      "sellType": "count",
+      "quantityUnit": "قطعة",
+      "quantityPresets": [
+        1,
+        5,
+        10
+      ],
+      "products": [
+        {
+          "id": "donut-1",
+          "name_ar": "دونات شوكولاتة",
+          "name_en": "Chocolate Donut",
+          "desc_ar": "دونات مغطي بالشوكولاتة الفاخرة",
+          "images": [
+            "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=800&q=80"
+          ],
+          "price": 15,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "donut-2",
+          "name_ar": "دونات سادة بالسكر",
+          "name_en": "Sugar Donut",
+          "desc_ar": "دونات سادة بالسكر الناعم",
+          "images": [
+            "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=800&q=80"
+          ],
+          "price": 12,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "donut-3",
+          "name_ar": "دونات محشو كريمة",
+          "name_en": "Cream Filled Donut",
+          "desc_ar": "دونات محشو بالكريمة الفاخرة",
+          "images": [
+            "https://images.unsplash.com/photo-1533910534207-90f31029a78e?w=800&q=80"
+          ],
+          "price": 18,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "muffins",
+      "icon": "🧁",
+      "name_ar": "المافن",
+      "name_en": "Muffins",
+      "homeImg": "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?w=600&q=80",
+      "visible": true,
+      "sellType": "count",
+      "quantityUnit": "قطعة",
+      "quantityPresets": [
+        1,
+        5,
+        10
+      ],
+      "products": [
+        {
+          "id": "muffin-1",
+          "name_ar": "مافن شوكولاتة",
+          "name_en": "Chocolate Muffin",
+          "desc_ar": "مافن شوكولاتة فاخر",
+          "images": [
+            "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?w=800&q=80"
+          ],
+          "price": 20,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "muffin-2",
+          "name_ar": "مافن فانيليا",
+          "name_en": "Vanilla Muffin",
+          "desc_ar": "مافن فانيليا طري",
+          "images": [
+            "https://images.unsplash.com/photo-1607958996333-41aef7caefaa?w=800&q=80"
+          ],
+          "price": 18,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "muffin-3",
+          "name_ar": "مافن بلوبيري",
+          "name_en": "Blueberry Muffin",
+          "desc_ar": "مافن بلوبيري فاخر",
+          "images": [
+            "https://images.unsplash.com/photo-1426869981800-95ebf51ce900?w=800&q=80"
+          ],
+          "price": 22,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "croissant-sweet",
+      "icon": "🥐",
+      "name_ar": "الكرواسون الحلو",
+      "name_en": "Sweet Croissant",
+      "homeImg": "https://images.unsplash.com/photo-1530610476181-d83430b64dcd?w=600&q=80",
+      "visible": true,
+      "sellType": "count",
+      "quantityUnit": "قطعة",
+      "quantityPresets": [
+        5,
+        10,
+        15
+      ],
+      "products": [
+        {
+          "id": "crois-sw-1",
+          "name_ar": "كرواسون بالشوكولاتة",
+          "name_en": "Chocolate Croissant",
+          "desc_ar": "كرواسون حلو محشو بالشوكولاتة الفاخرة",
+          "images": [
+            "https://images.unsplash.com/photo-1530610476181-d83430b64dcd?w=800&q=80"
+          ],
+          "price": 18,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "crois-sw-2",
+          "name_ar": "كرواسون بالمكسرات",
+          "name_en": "Nuts Croissant",
+          "desc_ar": "كرواسون حلو مغطي بالمكسرات",
+          "images": [
+            "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=800&q=80"
+          ],
+          "price": 22,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "sweet-pies",
+      "icon": "🥧",
+      "name_ar": "الفطائر الحلوة",
+      "name_en": "Sweet Pies",
+      "homeImg": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600&q=80",
+      "visible": true,
+      "sellType": "count",
+      "quantityUnit": "قطعة",
+      "quantityPresets": [
+        5,
+        10,
+        15
+      ],
+      "products": [
+        {
+          "id": "sp-1",
+          "name_ar": "فطيرة تفاح",
+          "name_en": "Apple Pie",
+          "desc_ar": "فطيرة تفاح حلوة بالقرفة",
+          "images": [
+            "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=80"
+          ],
+          "price": 25,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "sp-2",
+          "name_ar": "فطيرة بالشوكولاتة",
+          "name_en": "Chocolate Pie",
+          "desc_ar": "فطيرة حلوة بالشوكولاتة",
+          "images": [
+            "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&q=80"
+          ],
+          "price": 22,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "savory",
+      "icon": "🥯",
+      "name_ar": "المملحات",
+      "name_en": "Savory Snacks",
+      "homeImg": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&q=80",
+      "visible": true,
+      "sellType": "weight",
+      "quantityUnit": "كيلو",
+      "quantityPresets": [
+        0.25,
+        0.5,
+        1
+      ],
+      "products": [
+        {
+          "id": "savory-1",
+          "name_ar": "مملحات بالجبنة",
+          "name_en": "Cheese Savory",
+          "desc_ar": "مملحات طازجة بالجبنة",
+          "images": [
+            "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+          ],
+          "price": 180,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "savory-2",
+          "name_ar": "مملحات بالزعتر",
+          "name_en": "Thyme Savory",
+          "desc_ar": "مملحات بالزعتر الأخضر",
+          "images": [
+            "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "crackers",
+      "icon": "🍘",
+      "name_ar": "المقرمشات",
+      "name_en": "Crackers",
+      "homeImg": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=600&q=80",
+      "visible": true,
+      "sellType": "weight",
+      "quantityUnit": "كيلو",
+      "quantityPresets": [
+        0.25,
+        0.5,
+        1
+      ],
+      "products": [
+        {
+          "id": "crack-1",
+          "name_ar": "مقرمشات سادة",
+          "name_en": "Plain Crackers",
+          "desc_ar": "مقرمشات سادة طازجة",
+          "images": [
+            "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800&q=80"
+          ],
+          "price": 150,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "crack-2",
+          "name_ar": "مقرمشات بالجبنة",
+          "name_en": "Cheese Crackers",
+          "desc_ar": "مقرمشات بالجبنة الفاخرة",
+          "images": [
+            "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800&q=80"
+          ],
+          "price": 180,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "kaak",
+      "icon": "🥯",
+      "name_ar": "الكعك",
+      "name_en": "Kaak",
+      "homeImg": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&q=80",
+      "visible": true,
+      "sellType": "weight",
+      "quantityUnit": "كيلو",
+      "quantityPresets": [
+        0.25,
+        0.5,
+        1
+      ],
+      "products": [
+        {
+          "id": "kaak-1",
+          "name_ar": "كعك بالعجوة",
+          "name_en": "Date Kaak",
+          "desc_ar": "كعك محشو بالعجوة الطبيعية",
+          "images": [
+            "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+          ],
+          "price": 180,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "kaak-2",
+          "name_ar": "كعك بالمكسرات",
+          "name_en": "Nuts Kaak",
+          "desc_ar": "كعك محشو بالمكسرات الفاخرة",
+          "images": [
+            "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+          ],
+          "price": 220,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "eastern-sweets",
+      "icon": "🍯",
+      "name_ar": "الحلويات الشرقية",
+      "name_en": "Eastern Sweets",
+      "homeImg": "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=600&q=80",
+      "visible": true,
+      "sellType": "weight",
+      "quantityUnit": "كيلو",
+      "quantityPresets": [
+        0.25,
+        0.5,
+        1
+      ],
+      "products": [
+        {
+          "id": "east-1",
+          "name_ar": "بسبوسة",
+          "name_en": "Basbousa",
+          "desc_ar": "بسبوسة بالسميد والعسل الطبيعي",
+          "images": [
+            "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80"
+          ],
+          "price": 150,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "east-2",
+          "name_ar": "كنافة بالمكسرات",
+          "name_en": "Kunafa with Nuts",
+          "desc_ar": "كنافة فاخرة محشية بالمكسرات",
+          "images": [
+            "https://images.unsplash.com/photo-1601001435957-74f0958a93c8?w=800&q=80"
+          ],
+          "price": 250,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "east-3",
+          "name_ar": "قطايف",
+          "name_en": "Qatayef",
+          "desc_ar": "قطايف محشية بالمكسرات أو القشطة",
+          "images": [
+            "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80"
+          ],
+          "price": 200,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "east-4",
+          "name_ar": "بلح الشام",
+          "name_en": "Balah El Sham",
+          "desc_ar": "بلح الشام بالعسل الطبيعي",
+          "images": [
+            "https://images.unsplash.com/photo-1601001435957-74f0958a93c8?w=800&q=80"
+          ],
+          "price": 180,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "biscuits",
+      "icon": "🍪",
+      "name_ar": "البسكوت",
+      "name_en": "Biscuits",
+      "homeImg": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=600&q=80",
+      "visible": true,
+      "sellType": "weight",
+      "quantityUnit": "كيلو",
+      "quantityPresets": [
+        0.25,
+        0.5,
+        1
+      ],
+      "products": [
+        {
+          "id": "bisc-1",
+          "name_ar": "بسكوت فانيليا",
+          "name_en": "Vanilla Biscuits",
+          "desc_ar": "بسكوت فانيليا طازج",
+          "images": [
+            "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=800&q=80"
+          ],
+          "price": 200,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "bisc-2",
+          "name_ar": "بسكوت برتقال",
+          "name_en": "Orange Biscuits",
+          "desc_ar": "بسكوت بطعم البرتقال",
+          "images": [
+            "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800&q=80"
+          ],
+          "price": 200,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "bisc-3",
+          "name_ar": "بسكوت قرفة",
+          "name_en": "Cinnamon Biscuits",
+          "desc_ar": "بسكوت بالقرفة",
+          "images": [
+            "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?w=800&q=80"
+          ],
+          "price": 200,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "bisc-4",
+          "name_ar": "بسكوت نسكافيه",
+          "name_en": "Nescafe Biscuits",
+          "desc_ar": "بسكوت بطعم النسكافيه",
+          "images": [
+            "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=800&q=80"
+          ],
+          "price": 200,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "bisc-5",
+          "name_ar": "بسكوت لوكس",
+          "name_en": "Lux Biscuits",
+          "desc_ar": "بسكوت لوكس فاخر",
+          "images": [
+            "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?w=800&q=80"
+          ],
+          "price": 200,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "bisc-6",
+          "name_ar": "بسكوت بندق",
+          "name_en": "Hazelnut Biscuits",
+          "desc_ar": "بسكوت بالبندق",
+          "images": [
+            "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800&q=80"
+          ],
+          "price": 200,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "bisc-7",
+          "name_ar": "بسكوت لوز",
+          "name_en": "Almond Biscuits",
+          "desc_ar": "بسكوت باللوز",
+          "images": [
+            "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=800&q=80"
+          ],
+          "price": 200,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "bisc-8",
+          "name_ar": "بسكوت ينسون مدور",
+          "name_en": "Anise Biscuits",
+          "desc_ar": "بسكوت ينسون مدور",
+          "images": [
+            "https://images.unsplash.com/photo-1590080875515-8a3a8dc5735e?w=800&q=80"
+          ],
+          "price": 200,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "bisc-9",
+          "name_ar": "بسكوت أنس بالينسون",
+          "name_en": "Anise Mix Biscuits",
+          "desc_ar": "بسكوت أنس بالينسون",
+          "images": [
+            "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800&q=80"
+          ],
+          "price": 200,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "bisc-10",
+          "name_ar": "بسكوت جبنة حادق",
+          "name_en": "Cheese Biscuits",
+          "desc_ar": "بسكوت بالجبنة الحادق",
+          "images": [
+            "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?w=800&q=80"
+          ],
+          "price": 200,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "western",
+      "icon": "🍩",
+      "name_ar": "الغربي",
+      "name_en": "Western Sweets",
+      "homeImg": "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=600&q=80",
+      "visible": true,
+      "sellType": "count",
+      "quantityUnit": "قطعة",
+      "quantityPresets": [
+        1,
+        5,
+        10
+      ],
+      "products": [
+        {
+          "id": "west-1",
+          "name_ar": "دونتس شوكولاتة بيضة",
+          "name_en": "White Chocolate Donut",
+          "desc_ar": "دونتس مغطى بشوكولاتة بيضة",
+          "images": [
+            "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=800&q=80"
+          ],
+          "price": 25,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "west-2",
+          "name_ar": "دونتس شوكولاتة نوتيلا",
+          "name_en": "Nutella Donut",
+          "desc_ar": "دونتس بالنوتيلا",
+          "images": [
+            "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=800&q=80"
+          ],
+          "price": 25,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "west-3",
+          "name_ar": "إكلير شوكولاتة كراميل",
+          "name_en": "Chocolate Caramel Eclair",
+          "desc_ar": "إكلير بالشوكولاتة والكراميل",
+          "images": [
+            "https://images.unsplash.com/photo-1612203985729-70726954388c?w=800&q=80"
+          ],
+          "price": 25,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "west-4",
+          "name_ar": "دانش عسل",
+          "name_en": "Honey Danish",
+          "desc_ar": "دانش بالعسل",
+          "images": [
+            "https://images.unsplash.com/photo-1530610476181-d83430b64dcd?w=800&q=80"
+          ],
+          "price": 25,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "west-5",
+          "name_ar": "سليمون كبير",
+          "name_en": "Large Salmon",
+          "desc_ar": "سليمون كبير",
+          "images": [
+            "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800&q=80"
+          ],
+          "price": 25,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "west-6",
+          "name_ar": "ميني إكلير كراميل",
+          "name_en": "Mini Caramel Eclair",
+          "desc_ar": "ميني إكلير بالكراميل",
+          "images": [
+            "https://images.unsplash.com/photo-1612203985729-70726954388c?w=800&q=80"
+          ],
+          "price": 25,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "west-7",
+          "name_ar": "ميني إكلير كاستر",
+          "name_en": "Mini Custard Eclair",
+          "desc_ar": "ميني إكلير بالكاسترد",
+          "images": [
+            "https://images.unsplash.com/photo-1612203985729-70726954388c?w=800&q=80"
+          ],
+          "price": 25,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "west-8",
+          "name_ar": "مانفيه أم علي",
+          "name_en": "Om Ali Manfe",
+          "desc_ar": "مانفيه أم علي",
+          "images": [
+            "https://images.unsplash.com/photo-1551024601-bec78aea704b?w=800&q=80"
+          ],
+          "price": 25,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "mini-pizza",
+      "icon": "🍕",
+      "name_ar": "الميني بيتزا",
+      "name_en": "Mini Pizza",
+      "homeImg": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&q=80",
+      "visible": true,
+      "sellType": "weight",
+      "quantityUnit": "كيلو",
+      "quantityPresets": [
+        0.25,
+        0.5,
+        1
+      ],
+      "products": [
+        {
+          "id": "mpiz-1",
+          "name_ar": "ميني بيتزا خضار وجبنة",
+          "name_en": "Mini Pizza Vegetables & Cheese",
+          "desc_ar": "ميني بيتزا بالخضار والجبنة",
+          "images": [
+            "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "mpiz-2",
+          "name_ar": "ميني بيتزا إيطالي بسطرومة",
+          "name_en": "Italian Pastrami Mini Pizza",
+          "desc_ar": "ميني بيتزا إيطالي بالبسطرمة",
+          "images": [
+            "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "mpiz-3",
+          "name_ar": "ميني بيتزا إيطالي سوسيس",
+          "name_en": "Italian Sausage Mini Pizza",
+          "desc_ar": "ميني بيتزا إيطالي بالسوسيس",
+          "images": [
+            "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "mpiz-4",
+          "name_ar": "ميني بيتزا إيطالي سوسيس وموتزاريلا",
+          "name_en": "Italian Sausage & Mozzarella Mini Pizza",
+          "desc_ar": "ميني بيتزا إيطالي بالسوسيس والموتزاريلا",
+          "images": [
+            "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "pizza-rolls",
+      "icon": "🌯",
+      "name_ar": "رول البيتزا",
+      "name_en": "Pizza Rolls",
+      "homeImg": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600&q=80",
+      "visible": true,
+      "sellType": "count",
+      "quantityUnit": "قطعة",
+      "quantityPresets": [
+        5,
+        10,
+        15
+      ],
+      "products": [
+        {
+          "id": "pzr-1",
+          "name_ar": "رول بيتزا إيطالي سترس",
+          "name_en": "Italian Stress Pizza Roll",
+          "desc_ar": "رول بيتزا إيطالي بالستراس",
+          "images": [
+            "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=800&q=80"
+          ],
+          "price": 30,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "pzr-2",
+          "name_ar": "رول بيتزا إيطالي بسطرومة",
+          "name_en": "Italian Pastrami Pizza Roll",
+          "desc_ar": "رول بيتزا إيطالي بالبسطرمة",
+          "images": [
+            "https://images.unsplash.com/photo-1571407970349-bc81e7e96d47?w=800&q=80"
+          ],
+          "price": 30,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "dry-snacks",
+      "icon": "🥖",
+      "name_ar": "النواشف",
+      "name_en": "Dry Snacks",
+      "homeImg": "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=600&q=80",
+      "visible": true,
+      "sellType": "weight",
+      "quantityUnit": "كيلو",
+      "quantityPresets": [
+        0.25,
+        0.5,
+        1
+      ],
+      "products": [
+        {
+          "id": "dry-1",
+          "name_ar": "برزيان سمسم وحبة بركة",
+          "name_en": "Sesame & Nigella Barazian",
+          "desc_ar": "برزيان بالسمسم وحبة البركة",
+          "images": [
+            "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+          ],
+          "price": 120,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "dry-2",
+          "name_ar": "بقسماط سمسم",
+          "name_en": "Sesame Breadsticks",
+          "desc_ar": "بقسماط بالسمسم",
+          "images": [
+            "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+          ],
+          "price": 120,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "dry-3",
+          "name_ar": "بقسماط سادة",
+          "name_en": "Plain Breadsticks",
+          "desc_ar": "بقسماط سادة",
+          "images": [
+            "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+          ],
+          "price": 120,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "dry-4",
+          "name_ar": "بقسماط سمسم وحبة بركة",
+          "name_en": "Sesame & Nigella Breadsticks",
+          "desc_ar": "بقسماط بالسمسم وحبة البركة",
+          "images": [
+            "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+          ],
+          "price": 120,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "dry-5",
+          "name_ar": "باتون ساليه ملح وكمون",
+          "name_en": "Salt & Cumin Baton Sale",
+          "desc_ar": "باتون ساليه بالملح والكمون",
+          "images": [
+            "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+          ],
+          "price": 120,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "dry-6",
+          "name_ar": "باتون ساليه جبنة رومي",
+          "name_en": "Roumi Cheese Baton Sale",
+          "desc_ar": "باتون ساليه بالجبنة الرومي",
+          "images": [
+            "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+          ],
+          "price": 120,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "dry-7",
+          "name_ar": "باتون ساليه سمسم وحبة بركة",
+          "name_en": "Sesame & Nigella Baton Sale",
+          "desc_ar": "باتون ساليه بالسمسم وحبة البركة",
+          "images": [
+            "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+          ],
+          "price": 120,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "dry-8",
+          "name_ar": "باتون ساليه سكر وقرفة",
+          "name_en": "Sugar & Cinnamon Baton Sale",
+          "desc_ar": "باتون ساليه بالسكر والقرفة",
+          "images": [
+            "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+          ],
+          "price": 120,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "dry-9",
+          "name_ar": "فايش صعيدي سادة",
+          "name_en": "Plain Saiidi Faish",
+          "desc_ar": "فايش صعيدي سادة",
+          "images": [
+            "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+          ],
+          "price": 120,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "dry-10",
+          "name_ar": "فايش صعيدي سمسم وحبة بركة",
+          "name_en": "Sesame & Nigella Saiidi Faish",
+          "desc_ar": "فايش صعيدي بالسمسم وحبة البركة",
+          "images": [
+            "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+          ],
+          "price": 120,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "dry-11",
+          "name_ar": "دوست صعيدي",
+          "name_en": "Saiidi Dost",
+          "desc_ar": "دوست صعيدي",
+          "images": [
+            "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+          ],
+          "price": 120,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "dry-12",
+          "name_ar": "شرائح جبنة رومي",
+          "name_en": "Roumi Cheese Slices",
+          "desc_ar": "شرائح الجبنة الرومي",
+          "images": [
+            "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "dry-13",
+          "name_ar": "شرائح زعتر",
+          "name_en": "Thyme Slices",
+          "desc_ar": "شرائح بالزعتر",
+          "images": [
+            "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "dry-14",
+          "name_ar": "شرائح سمسم وحبة بركة",
+          "name_en": "Sesame & Nigella Slices",
+          "desc_ar": "شرائح بالسمسم وحبة البركة",
+          "images": [
+            "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "diet",
+      "icon": "🌾",
+      "name_ar": "الدايت",
+      "name_en": "Diet Products",
+      "homeImg": "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=600&q=80",
+      "visible": true,
+      "sellType": "weight",
+      "quantityUnit": "كيلو",
+      "quantityPresets": [
+        0.25,
+        0.5,
+        1
+      ],
+      "products": [
+        {
+          "id": "diet-1",
+          "name_ar": "شرائح شوفان وبذر كتان",
+          "name_en": "Oats & Flax Slices",
+          "desc_ar": "شرائح شوفان مع بذر الكتان",
+          "images": [
+            "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "diet-2",
+          "name_ar": "شرائح شوفان",
+          "name_en": "Oats Slices",
+          "desc_ar": "شرائح الشوفان",
+          "images": [
+            "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "diet-3",
+          "name_ar": "شرائح رادة",
+          "name_en": "Rada Slices",
+          "desc_ar": "شرائح رادة بالحبوب الكاملة",
+          "images": [
+            "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "diet-4",
+          "name_ar": "قراقيش شوفان وبذر كتان",
+          "name_en": "Oats & Flax Crackers",
+          "desc_ar": "قراقيش بالشوفان وبذر الكتان",
+          "images": [
+            "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "diet-5",
+          "name_ar": "قراقيش رادة",
+          "name_en": "Rada Crackers",
+          "desc_ar": "قراقيش رادة",
+          "images": [
+            "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "diet-6",
+          "name_ar": "بقسماط سن",
+          "name_en": "Sun Breadsticks",
+          "desc_ar": "بقسماط سن دايت",
+          "images": [
+            "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+          ],
+          "price": 120,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "diet-7",
+          "name_ar": "بقسماط شوفان",
+          "name_en": "Oats Breadsticks",
+          "desc_ar": "بقسماط بالشوفان",
+          "images": [
+            "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+          ],
+          "price": 120,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "diet-8",
+          "name_ar": "دوست رادة",
+          "name_en": "Rada Dost",
+          "desc_ar": "دوست رادة",
+          "images": [
+            "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+          ],
+          "price": 120,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "diet-9",
+          "name_ar": "رغيف فينو رادة",
+          "name_en": "Rada Fino Bread",
+          "desc_ar": "رغيف فينو رادة",
+          "images": [
+            "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80"
+          ],
+          "price": 3,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "diet-10",
+          "name_ar": "رغيف فينو شوفان",
+          "name_en": "Oats Fino Bread",
+          "desc_ar": "رغيف فينو شوفان",
+          "images": [
+            "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80"
+          ],
+          "price": 3,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "diet-11",
+          "name_ar": "عيش سن طري",
+          "name_en": "Soft Sun Bread",
+          "desc_ar": "عيش سن طري دايت",
+          "images": [
+            "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80"
+          ],
+          "price": 2,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "diet-12",
+          "name_ar": "عيش سن",
+          "name_en": "Sun Bread",
+          "desc_ar": "عيش سن دايت",
+          "images": [
+            "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80"
+          ],
+          "price": 80,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "cakes",
+      "icon": "🎂",
+      "name_ar": "الكيكات",
+      "name_en": "Cakes",
+      "homeImg": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&q=80",
+      "visible": true,
+      "sellType": "count",
+      "quantityUnit": "قطعة",
+      "quantityPresets": [
+        1,
+        5,
+        10
+      ],
+      "products": [
+        {
+          "id": "ck-1",
+          "name_ar": "كيك سادة",
+          "name_en": "Plain Cake",
+          "desc_ar": "كيك سادة طري",
+          "images": [
+            "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "ck-2",
+          "name_ar": "كيك برتقال",
+          "name_en": "Orange Cake",
+          "desc_ar": "كيك بطعم البرتقال",
+          "images": [
+            "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "ck-3",
+          "name_ar": "كيك شوكولاتة",
+          "name_en": "Chocolate Cake",
+          "desc_ar": "كيك شوكولاتة فاخر",
+          "images": [
+            "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "ck-4",
+          "name_ar": "كيك إسباني",
+          "name_en": "Spanish Cake",
+          "desc_ar": "كيك إسباني",
+          "images": [
+            "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "ck-5",
+          "name_ar": "كيك ذرة",
+          "name_en": "Corn Cake",
+          "desc_ar": "كيك ذرة",
+          "images": [
+            "https://images.unsplash.com/photo-1586985289906-406988974504?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "ck-6",
+          "name_ar": "مولتن كيك",
+          "name_en": "Molten Cake",
+          "desc_ar": "مولتن كيك بالشوكولاتة السائلة",
+          "images": [
+            "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&q=80"
+          ],
+          "price": 50,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "ck-7",
+          "name_ar": "تشيز كيك",
+          "name_en": "Cheesecake",
+          "desc_ar": "تشيز كيك فاخر",
+          "images": [
+            "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?w=800&q=80"
+          ],
+          "price": 40,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "ck-8",
+          "name_ar": "إنجلش كيك",
+          "name_en": "English Cake",
+          "desc_ar": "إنجلش كيك",
+          "images": [
+            "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80"
+          ],
+          "price": 50,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        },
+        {
+          "id": "ck-9",
+          "name_ar": "براونيز",
+          "name_en": "Brownies",
+          "desc_ar": "براونيز بالشوكولاتة الفاخرة",
+          "images": [
+            "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=800&q=80"
+          ],
+          "price": 40,
+          "priceUnit": "قطعة",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "soft-sweets",
+      "icon": "🥮",
+      "name_ar": "النواعم",
+      "name_en": "Soft Sweets",
+      "homeImg": "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=600&q=80",
+      "visible": true,
+      "sellType": "weight",
+      "quantityUnit": "كيلو",
+      "quantityPresets": [
+        0.25,
+        0.5,
+        1
+      ],
+      "products": [
+        {
+          "id": "soft-1",
+          "name_ar": "كعب غزال عجوة",
+          "name_en": "Date Ghazal Heel",
+          "desc_ar": "كعب غزال بالعجوة",
+          "images": [
+            "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "soft-2",
+          "name_ar": "كعب غزال ملين",
+          "name_en": "Melin Ghazal Heel",
+          "desc_ar": "كعب غزال بالملين",
+          "images": [
+            "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "soft-3",
+          "name_ar": "صوابيع عجوة",
+          "name_en": "Date Fingers",
+          "desc_ar": "صوابيع بالعجوة",
+          "images": [
+            "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "soft-4",
+          "name_ar": "صوابيع ملين",
+          "name_en": "Melin Fingers",
+          "desc_ar": "صوابيع بالملين",
+          "images": [
+            "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "soft-5",
+          "name_ar": "عسلية",
+          "name_en": "Honey Sweets",
+          "desc_ar": "عسلية بالعسل الطبيعي",
+          "images": [
+            "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "soft-6",
+          "name_ar": "منين ينسون",
+          "name_en": "Anise Manin",
+          "desc_ar": "منين بالينسون",
+          "images": [
+            "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "soft-7",
+          "name_ar": "قراقيش مملحة",
+          "name_en": "Salted Crackers",
+          "desc_ar": "قراقيش مملحة",
+          "images": [
+            "https://images.unsplash.com/photo-1601050690597-df0568f70950?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "soft-8",
+          "name_ar": "معمول عجوة",
+          "name_en": "Date Maamoul",
+          "desc_ar": "معمول بالعجوة",
+          "images": [
+            "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "soft-9",
+          "name_ar": "معمول سكر وقرفة",
+          "name_en": "Sugar & Cinnamon Maamoul",
+          "desc_ar": "معمول بالسكر والقرفة",
+          "images": [
+            "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "soft-10",
+          "name_ar": "معمول صرف",
+          "name_en": "Sarraf Maamoul",
+          "desc_ar": "معمول صرف",
+          "images": [
+            "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80"
+          ],
+          "price": 160,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "maamoul",
+      "icon": "🧆",
+      "name_ar": "المعمول",
+      "name_en": "Maamoul",
+      "homeImg": "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=600&q=80",
+      "visible": true,
+      "sellType": "weight",
+      "quantityUnit": "كيلو",
+      "quantityPresets": [
+        0.25,
+        0.5,
+        1
+      ],
+      "products": [
+        {
+          "id": "maam-1",
+          "name_ar": "معمول سوري ملين مكسرات",
+          "name_en": "Souri Melin Nuts Maamoul",
+          "desc_ar": "معمول سوري بالملين والمكسرات",
+          "images": [
+            "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80"
+          ],
+          "price": 200,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "maam-2",
+          "name_ar": "معمول سوري عجوة",
+          "name_en": "Souri Date Maamoul",
+          "desc_ar": "معمول سوري بالعجوة",
+          "images": [
+            "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80"
+          ],
+          "price": 200,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "maam-3",
+          "name_ar": "معمول سوري سادة",
+          "name_en": "Souri Plain Maamoul",
+          "desc_ar": "معمول سوري سادة",
+          "images": [
+            "https://images.unsplash.com/photo-1519676867240-f03562e64548?w=800&q=80"
+          ],
+          "price": 200,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "maam-4",
+          "name_ar": "غريبة مكسرات",
+          "name_en": "Nuts Ghraiba",
+          "desc_ar": "غريبة بالمكسرات",
+          "images": [
+            "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800&q=80"
+          ],
+          "price": 240,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "maam-5",
+          "name_ar": "غريبة سادة",
+          "name_en": "Plain Ghraiba",
+          "desc_ar": "غريبة سادة",
+          "images": [
+            "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800&q=80"
+          ],
+          "price": 220,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        }
+      ]
+    },
+    {
+      "id": "sable-tart",
+      "icon": "🍰",
+      "name_ar": "السابليه والتارت",
+      "name_en": "Sablé & Tart",
+      "homeImg": "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=600&q=80",
+      "visible": true,
+      "sellType": "weight",
+      "quantityUnit": "كيلو",
+      "quantityPresets": [
+        0.25,
+        0.5,
+        1
+      ],
+      "products": [
+        {
+          "id": "sab-1",
+          "name_ar": "سابليه شوكولاتة بني",
+          "name_en": "Brown Chocolate Sablé",
+          "desc_ar": "سابليه بالشوكولاتة البني",
+          "images": [
+            "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800&q=80"
+          ],
+          "price": 240,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "sab-2",
+          "name_ar": "سابليه شوكولاتة إبيض",
+          "name_en": "White Chocolate Sablé",
+          "desc_ar": "سابليه بالشوكولاتة البيضاء",
+          "images": [
+            "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800&q=80"
+          ],
+          "price": 240,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "sab-3",
+          "name_ar": "سابليه كراميل عين جمل",
+          "name_en": "Caramel Walnut Sablé",
+          "desc_ar": "سابليه بالكراميل وعين الجمل",
+          "images": [
+            "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800&q=80"
+          ],
+          "price": 240,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "sab-4",
+          "name_ar": "سابليه شوكولاتة مكسرات",
+          "name_en": "Chocolate Nuts Sablé",
+          "desc_ar": "سابليه بالشوكولاتة والمكسرات",
+          "images": [
+            "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?w=800&q=80"
+          ],
+          "price": 240,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "sab-5",
+          "name_ar": "تارت سابليه كراميل بندق",
+          "name_en": "Caramel Hazelnut Tart",
+          "desc_ar": "تارت سابليه بالكراميل والبندق",
+          "images": [
+            "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=80"
+          ],
+          "price": 260,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "sab-6",
+          "name_ar": "تارت سوز سابليه",
+          "name_en": "Suz Sablé Tart",
+          "desc_ar": "تارت سوز سابليه",
+          "images": [
+            "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=80"
+          ],
+          "price": 260,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "sab-7",
+          "name_ar": "تارت سابليه عين جمل",
+          "name_en": "Walnut Sablé Tart",
+          "desc_ar": "تارت سابليه بعين الجمل",
+          "images": [
+            "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=80"
+          ],
+          "price": 260,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        },
+        {
+          "id": "sab-8",
+          "name_ar": "تارت بيستاشيو",
+          "name_en": "Pistachio Tart",
+          "desc_ar": "تارت بالفستق الحلبي",
+          "images": [
+            "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=800&q=80"
+          ],
+          "price": 260,
+          "priceUnit": "كيلو",
+          "desc_en": ""
+        }
+      ]
+    }
+  ]
+}
