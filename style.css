@@ -99,9 +99,7 @@ input:focus-visible {
   width: 100%;
   height: 100%;
   background:
-    /* طبقة سوداء شفافة عشان النص الذهبي يبان */
-    linear-gradient(rgba(10, 10, 10, 0.55), rgba(10, 10, 10, 0.7)),
-    /* صورة داخل المحل */
+
     url('assets/images/bakery-interior.jpg') center / cover no-repeat;
   display: flex;
   flex-direction: column;
