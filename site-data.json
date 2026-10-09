@@ -20,113 +20,114 @@
     "tiktok": "",
     "telegram": ""
   },
-  "branches": [
+"branches": [
     {
       "id": "br-1",
       "name": "فرع محمد نجيب",
       "address": "",
-      "whatsapp": "",
+      "whatsapp": "201008070087",
       "visible": true
     },
     {
       "id": "br-2",
       "name": "فرع لوران",
       "address": "",
-      "whatsapp": "",
+      "whatsapp": "201008070087",
       "visible": true
     },
     {
       "id": "br-3",
       "name": "فرع سموحة",
       "address": "",
-      "whatsapp": "",
+      "whatsapp": "201008070087",
       "visible": true
     },
     {
       "id": "br-4",
       "name": "فرع محطة الرمل",
       "address": "",
-      "whatsapp": "",
+      "whatsapp": "201008070087",
       "visible": true
     },
     {
       "id": "br-5",
       "name": "فرع المندرة",
       "address": "",
-      "whatsapp": "",
+      "whatsapp": "201008070087",
       "visible": true
     },
     {
       "id": "br-6",
       "name": "فرع المنتزه",
       "address": "",
-      "whatsapp": "",
+      "whatsapp": "201008070087",
       "visible": true
     },
     {
       "id": "br-7",
       "name": "فرع ميامي",
       "address": "",
-      "whatsapp": "",
+      "whatsapp": "201008070087",
       "visible": true
     },
     {
       "id": "br-8",
       "name": "فرع بحري",
       "address": "",
-      "whatsapp": "",
+      "whatsapp": "201008070087",
       "visible": true
     },
     {
       "id": "br-9",
       "name": "فرع المنشية",
       "address": "",
-      "whatsapp": "",
+      "whatsapp": "201008070087",
       "visible": true
     },
     {
       "id": "br-10",
       "name": "فرع محطة مصر",
       "address": "",
-      "whatsapp": "",
+      "whatsapp": "201008070087",
       "visible": true
     },
     {
       "id": "br-11",
       "name": "فرع محرم بك",
       "address": "",
-      "whatsapp": "",
+      "whatsapp": "201008070087",
       "visible": true
     },
     {
       "id": "br-12",
       "name": "فرع العجمي",
       "address": "",
-      "whatsapp": "",
+      "whatsapp": "201008070087",
       "visible": true
     },
     {
       "id": "br-13",
       "name": "فرع العصافرة",
       "address": "",
-      "whatsapp": "",
+      "whatsapp": "201008070087",
       "visible": true
     },
     {
       "id": "br-14",
       "name": "فرع سيدي بشر",
       "address": "",
-      "whatsapp": "",
+      "whatsapp": "201008070087",
       "visible": true
     },
     {
       "id": "br-15",
       "name": "فرع كليوباترا",
       "address": "",
-      "whatsapp": "",
+      "whatsapp": "201008070087",
       "visible": true
     }
   ],
+
   "featured": [
     "https://images.unsplash.com/photo-1509440159596-0249088772ff?w=800&q=80",
     "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=800&q=80",

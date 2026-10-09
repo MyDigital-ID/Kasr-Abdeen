@@ -136,66 +136,43 @@ input:focus-visible {
   opacity: 0.9;
   pointer-events: none;
 }
-
-/* ===== العلامة الذهبية أعلى الباب ===== */
+/* ===== اللوجو الذهبي أعلى الباب ===== */
 .splash-sign {
   position: relative;
   z-index: 3;
-  margin-bottom: 40px;
+  margin-bottom: 30px;
   opacity: 0;
   animation: signFade 1.2s ease 0.3s forwards;
+  padding: 0 16px;
+  width: 100%;
+  max-width: 480px;
 }
 
-.splash-sign-inner {
-  background: linear-gradient(180deg, #1a1a1a 0%, #0a0a0a 100%);
-  border: 3px solid var(--gold);
-  border-radius: 16px;
-  padding: 24px 44px;
-  text-align: center;
+.splash-logo-img {
+  width: 100%;
+  height: auto;
+  max-width: 400px;
+  border-radius: 20px;
   box-shadow:
-    0 0 40px rgba(201, 162, 39, 0.4),
-    inset 0 0 30px rgba(201, 162, 39, 0.08);
-  position: relative;
+    0 0 60px rgba(201, 162, 39, 0.5),
+    0 0 0 3px var(--gold),
+    0 20px 60px rgba(0, 0, 0, 0.7);
+  animation: logoPulse 3s ease-in-out infinite;
 }
 
-.splash-sign-inner::before,
-.splash-sign-inner::after {
-  content: "";
-  position: absolute;
-  width: 12px;
-  height: 12px;
-  background: var(--gold);
-  transform: rotate(45deg);
-}
-.splash-sign-inner::before { top: -7px; left: 50%; margin-left: -6px; }
-.splash-sign-inner::after { bottom: -7px; left: 50%; margin-left: -6px; }
-
-.splash-sign-icon {
-  display: block;
-  font-size: 2.4rem;
-  margin-bottom: 6px;
-  filter: drop-shadow(0 0 12px var(--gold-glow));
-}
-
-.splash-sign-title {
-  font-family: 'Amiri', 'Lalezar', serif;
-  font-weight: 700;
-  font-size: 2.4rem;
-  color: var(--gold);
-  letter-spacing: 2px;
-  text-shadow:
-    0 0 20px rgba(201, 162, 39, 0.6),
-    0 2px 0 var(--gold-deep);
-  line-height: 1.2;
-}
-
-.splash-sign-sub {
-  font-family: 'Cairo', sans-serif;
-  font-weight: 700;
-  font-size: 1rem;
-  color: var(--gold-light);
-  letter-spacing: 3px;
-  margin-top: 6px;
+@keyframes logoPulse {
+  0%, 100% {
+    box-shadow:
+      0 0 60px rgba(201, 162, 39, 0.5),
+      0 0 0 3px var(--gold),
+      0 20px 60px rgba(0, 0, 0, 0.7);
+  }
+  50% {
+    box-shadow:
+      0 0 80px rgba(201, 162, 39, 0.8),
+      0 0 0 3px var(--gold-light),
+      0 20px 60px rgba(0, 0, 0, 0.7);
+  }
 }
 
 @keyframes signFade {
@@ -304,33 +281,14 @@ input:focus-visible {
 }
 
 .splash-inside-logo {
-  width: 140px;
-  height: 140px;
-  border-radius: 30px;
+  width: 240px;
+  height: auto;
+  border-radius: 20px;
   box-shadow:
-    0 0 60px var(--gold-glow),
-    0 0 0 4px var(--gold);
+    0 0 60px rgba(201, 162, 39, 0.6),
+    0 0 0 3px var(--gold);
   margin-bottom: 24px;
   animation: insideRise 1s ease 1.8s both;
-}
-
-.splash-inside-title {
-  font-family: 'Amiri', 'Lalezar', serif;
-  font-size: 3rem;
-  color: var(--gold);
-  text-shadow: 0 0 30px var(--gold-glow);
-  letter-spacing: 2px;
-  animation: insideRise 1s ease 2s both;
-}
-
-.splash-inside-sub {
-  font-family: 'Cairo', sans-serif;
-  font-weight: 700;
-  font-size: 1.1rem;
-  color: var(--gold-light);
-  letter-spacing: 4px;
-  margin-top: 6px;
-  animation: insideRise 1s ease 2.2s both;
 }
 
 .splash-inside-tag {
@@ -400,41 +358,26 @@ input:focus-visible {
 
 #menuBtn { flex-direction: column; }
 
+
 .brand {
   flex: 1;
   cursor: pointer;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  line-height: 1;
+  justify-content: center;
   border-radius: 10px;
   padding: 4px;
 }
 
-.brand-crown {
-  font-size: 1.1rem;
-  margin-bottom: -2px;
-  filter: drop-shadow(0 0 6px var(--gold-glow));
+.brand-logo-img {
+  max-height: 52px;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  border-radius: 8px;
+  filter: drop-shadow(0 2px 6px rgba(201, 162, 39, 0.35));
 }
-
-.brand-en {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 800;
-  font-size: 0.72rem;
-  letter-spacing: 3px;
-  color: var(--gold);
-  text-shadow: 0 0 8px var(--gold-glow);
-}
-
-.brand-ar {
-  font-family: 'Amiri', 'Cairo', serif;
-  font-weight: 700;
-  font-size: 1.15rem;
-  color: var(--cream);
-  margin-top: 2px;
-  letter-spacing: 1px;
-}
-
 .cart-btn { position: relative; }
 
 .cart-count {
@@ -1770,35 +1713,19 @@ body { padding-bottom: 90px; }
   text-align: center;
   align-items: center;
 }
-
 .footer-brand {
   display: flex;
   flex-direction: column;
   align-items: center;
-  line-height: 1;
+  line-height: 1.3;
 }
 
-.footer-crown {
-  font-size: 1.6rem;
-  margin-bottom: 6px;
-  filter: drop-shadow(0 0 12px var(--gold-glow));
-}
-
-.footer-logo-en {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 800;
-  font-size: 0.9rem;
-  letter-spacing: 4px;
-  color: var(--gold);
-  margin-bottom: 6px;
-}
-
-.footer-logo-ar {
-  font-family: 'Amiri', 'Cairo', serif;
-  font-weight: 700;
-  font-size: 1.8rem;
-  color: var(--cream);
-  letter-spacing: 1px;
+.footer-logo-img {
+  max-width: 180px;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 12px;
+  box-shadow: 0 0 30px rgba(201, 162, 39, 0.4);
 }
 
 .footer-tag {
@@ -1895,10 +1822,7 @@ body { padding-bottom: 90px; }
   .category-title { font-size: 1.5rem; }
   .cart-drawer { width: 100%; max-width: 100%; }
   .cat-card-ar { font-size: 0.95rem; }
-  .splash-sign-title { font-size: 1.8rem; }
-  .splash-sign-inner { padding: 18px 30px; }
-  .splash-inside-title { font-size: 2.2rem; }
-  .splash-inside-logo { width: 110px; height: 110px; }
+ .splash-inside-logo { width: 180px; } 
   .branches-header h2 { font-size: 1.35rem; }
   .branch-name { font-size: 1rem; }
 }
